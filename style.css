@@ -1,0 +1,57 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEFA;
+}
+
+.row{
+    gap:8px;
+}
+
+#calc{
+    background-color: #b4bfc4;
+    border-radius: 5px;
+    border-style: solid;
+    padding:20px;
+}
+
+#screen{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 10px;
+    background-color: white;
+    border-style: solid;
+    color:#2d3742;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#text {
+    font-size: 40px;
+}
+
+
+button{
+    width:75px;
+    height:75px;
+    color: white;
+    font-size: 20px;
+    background-color: #1E90FF;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    border-style:none;
+}
+
+button:active {
+    background-color: #2d3742;
+}
+#zero{
+    width: 155px;
+}
